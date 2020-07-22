@@ -34,7 +34,7 @@
     &__posts img {
     max-width: 100%;
     height: auto;
-    
+    vertical-align: middle;
     }
 
     &__posts img:hover {
@@ -170,7 +170,7 @@ font-size: 13px;
 font-weight: 300;
 }
 
-a {
+.blogbutton {
     width: 200px;
     height: 55px;
     background-color: #f72b3b;
@@ -195,4 +195,9 @@ a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     color: black;
     transition: 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
